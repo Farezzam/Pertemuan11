@@ -1,0 +1,69 @@
+/* CSS untuk styling halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Warna latar belakang yang lebih lembut */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* Warna putih untuk kontainer */
+    padding: 40px; /* Menambah padding */
+    border-radius: 12px; /* Membuat sudut lebih bulat */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Bayangan yang lebih dalam */
+    width: 350px; /* Lebar kontainer yang lebih besar */
+}
+
+h1 {
+    color: #007bff; /* Warna judul biru */
+    text-align: center; /* Memusatkan teks */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Menambah jarak antar grup */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /* Menambah jarak di bawah label */
+    color: #495057; /* Warna label yang lebih gelap */
+}
+
+input {
+    width: 100%;
+    padding: 10px; /* Menambah padding */
+    border: 1px solid #ced4da; /* Warna border yang lebih lembut */
+    border-radius: 4px;
+    transition: border-color 0.3s; /* Transisi border */
+}
+
+input:focus {
+    border-color: #007bff; /* Warna border saat fokus */
+    outline: none; /* Menghilangkan outline default */
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Menambah padding */
+    background-color: #28a745; /* Warna hijau untuk tombol */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Ukuran font yang lebih besar */
+    transition: background-color 0.3s; /* Transisi warna latar belakang */
+}
+
+button:hover {
+    background-color: #218838; /* Warna hijau lebih gelap saat hover */
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    color: #28a745; /* Warna hijau untuk hasil */
+    font-weight: bold; /* Menebalkan teks hasil */
+}
